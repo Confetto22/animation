@@ -338,6 +338,61 @@ body {
     padding-bottom: 2rem;
 }
 
+.section-4{
+    padding: 2rem;
+    color: #242424;
+}
+.section4-text h2{
+    text-align: left;
+    max-width: 25rem;
+    font-size: 2rem;
+
+   
+}
+.section4-text p{
+    
+    padding: 2rem 0;
+    
+}
+
+
+.section4-text.second, .section4-text.first{
+    padding: 0 1rem;
+       
+}
+.section4-text.first button{
+    border: none;
+    background-color: #292929;
+    color: #fff;
+    /* width: 6rem;
+    height: 2rem; */
+    padding: 1rem 1.6rem;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+}
+.section4-text.first button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.section4-text.second h4{
+    padding: 2rem 0;
+        
+        padding:0.4rem 0;
+}
+.section4-text.second p{
+    padding: 0.6rem 0;
+}
+.section4-text img{
+    padding-top: 2rem;
+    
+}
+.section4-images img{
+    width: 100%;
+    animation: rotate 1s ease-in 1;
+}
+
+
 
 
 footer {
@@ -345,23 +400,13 @@ footer {
     background-color: #cfcaca;
 }
 
-footer h3 {
-    font-size: 2rem;
-    text-align: center;
-    color: #ff7800;
-}
-
-footer p {
-    text-align: center;
-    font-size: 1.2rem;
-}
 
 .share {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     width: 50%;
     margin: auto;
 
@@ -511,7 +556,7 @@ footer p {
 }
 
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:740px) {
     .section2-tiles {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -536,5 +581,16 @@ footer p {
         place-self: center;
     }
 
+    .section-4{
+        display: flex;
+        align-items: center;
+    }
+    .section4-text{
+        width: 90%;
+    }
+        .section4-images img {
+            width: 100%;
+
+        }
 
 }
