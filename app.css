@@ -17,6 +17,35 @@ body {
     position: fixed;
     background-color: #fcbf49;
     box-shadow: 1px 3px 17px 8px #0000f3;
+    animation: neon 5s linear infinite;
+}
+@keyframes neon{
+
+    0%{
+       
+    }
+    20%{
+        box-shadow: 1px 3px 17px 8px #cb00f3;
+       
+    }
+  
+    40%{
+        box-shadow: 1px 3px 17px 8px #00b5ea;
+    }
+  
+    60%{
+        box-shadow: 1px 3px 17px 8px #99ff00;
+    }
+ 
+
+    80%{
+        box-shadow: 1px 3px 17px 8px #ff0054;
+    }
+ 
+    100%{
+        box-shadow: 1px 3px 17px 8px #9a00f3;
+    }
+  
 }
 
 .mobile-menu {
