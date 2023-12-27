@@ -16,6 +16,7 @@ body {
     margin: auto;
     position: fixed;
     background-color: #fcbf49;
+    box-shadow: 1px 3px 17px 8px #0000f3;
 }
 
 .mobile-menu {
