@@ -72,8 +72,8 @@ body {
             right: 0;
             margin-left: auto;
             margin-right: auto;
-            max-width: 400px;
-            height: 50%;
+            width: 90%;
+            height: 60%;
             border-radius: 25px 0px 25px 0px;
             border: none;
             box-shadow: 1px 3px 14px 3px black;
@@ -555,6 +555,11 @@ footer {
 }
 
 @media only screen and (min-width:600px) {
+
+    .slide-menu{
+        max-width: 400px;
+    }
+
     .mobile-menu {
         display: none;
     }
