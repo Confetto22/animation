@@ -52,11 +52,92 @@ body {
     transition: 0.3s;
 }
 
+
 .mobile-menu:hover {
     opacity: 0.4;
     scale: 1.2;
     cursor: pointer;
     animation: wiggle2 0.1s linear 5;
+}
+.slide-menu{
+        position: absolute;
+            background-color: rgb(250, 227, 95);
+            
+            top: -480px;
+            /* left: 255px; */
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 400px;
+            height: 50%;
+            border-radius: 25px 0px 25px 0px;
+            border: none;
+            box-shadow: 1px 3px 14px 3px black;
+            transition: 0.5s;
+}
+.nav-buttons.menu{
+    padding: 2rem;
+}
+.close-button:hover{
+    color: red;
+    cursor: pointer;
+}
+.menu-window h5{
+color: #0000f3;
+    font-size: 30px;
+    position: relative;
+    padding-right: 10px;
+    transition: 0.4s;
+    text-align: center;
+    top: 0px;
+    width: 43px;
+    margin-left: auto;
+}
+.slide-in{
+    top: 90px;
+}
+.menu-window .nav-buttons{
+    display: block;
+}
+
+.sign-in {
+    border: none;
+    background-color: #fff;
+
+    border-radius: 0.4rem;
+    padding: 0.6rem 1rem;
+    color: #111;
+    transition: 0.3s;
+}
+
+.sign-in:hover {
+    background-color: #63a32793;
+    color: #fff;
+    cursor: pointer;
+}
+
+.create {
+    border: none;
+    color: #fff;
+
+    border-radius: 0.4rem;
+    padding: 0.6rem 1rem;
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.create:hover {
+    color: #111;
+    background-color: #74f1f5;
+    cursor: pointer;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .nav-links,
@@ -467,7 +548,7 @@ footer {
 
     }
 
-    .navbar button:first-child {
+    /* .sign-in {
         border: none;
         background-color: #fff;
 
@@ -477,13 +558,13 @@ footer {
         transition: 0.3s;
     }
 
-    .navbar button:first-child:hover {
+    .sign-in:hover {
         background-color: #63a32793;
         color: #fff;
         cursor: pointer;
     }
 
-    .navbar button:last-child {
+    .create {
         border: none;
         color: #fff;
 
@@ -493,16 +574,17 @@ footer {
         transition: 0.5s;
     }
 
-    .navbar button:last-child:hover {
+    .create:hover {
         color: #111;
         background-color: #74f1f5;
         cursor: pointer;
-    }
+    } */
 
     .section-1 {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        flex-direction: row;
     }
 
     .section1-text h1 {
